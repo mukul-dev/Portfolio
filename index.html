@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mukul Dev - Portfolio</title>
+
+    <link rel="icon" type="image/x-icon" href="/images/favicon.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #02082f;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        nav {
+            /* header */
+            /* background-image: url("/images/bg-head.jpg"); */
+            opacity: 100%;
+            display: flex;
+            justify-content:end;
+            align-items: center;
+            background-color: #082432;
+            height: 90px
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 10px 23px;
+        }
+
+        .left {
+            /* header left */
+            font-size: 1.5rem;
+            margin-right: 50%;
+            font-family: Verdana, sans-serif;
+        }
+
+        .firstSec {
+            display: flex;
+            justify-content: space-around;
+            margin-right:  10px;
+            margin-left:  10px;
+            margin-top: 10px;
+        }
+        .secondSec {
+            display: flex;
+            justify-content:space-evenly;
+            margin: 70px 10px;
+        }
+        .thirdSec {
+            display: flex;
+            margin: 70px 80px;
+            justify-content: space-around;
+        }
+        .fourthSec {
+            display: flex;
+            margin: 70px 80px;
+        }
+        td{
+            padding: 3px 10px;
+        }
+
+        .firstSec div {
+            width: 30%;
+        }
+
+        .leftSec {
+            font-size: 1.2rem;
+            align-items: center;
+            text-align: center;
+        }
+
+        .rightSec {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .name {
+            display: inline;
+            color: #a9a7d9;
+
+        }
+        ul li{
+            margin: 0px 30px;
+            list-style-type: none;
+        }
+
+        .imgBtn {
+            height: 32px;
+            width: 33px;
+            border: 1px solid #2727e1;
+            border-radius: 50%;
+            opacity: 80%;
+            margin: 0px 10px;
+        }
+
+        .imgBtn img {
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+        }
+
+        .imgBtn:hover {
+            height: 32px;
+            width: 33px;
+            border: 1px solid #2727e1;
+            border-radius: 50%;
+            opacity: 100%;
+
+        }
+
+        .simpleBtn {
+            margin: 0px 10px;
+            height: 30px;
+            align-items: center;
+            padding: 2px 5px;
+            color: white;
+            background-color: rgb(40, 9, 69);
+        }
+
+        
+        button:hover{
+            zoom: 1.05;
+        }
+        input, textarea{
+            color: white;
+            background-color :rgb(23, 29, 63);
+        }
+        footer{
+            height: 70px;
+            background-color: #20013f;
+            text-align: center;
+            margin: 10px 0px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <!-- <img src="/images/bg-head.jpg" alt=""> -->
+            <div class="left"> Mukul Dev's Portfolio</div>
+            <div style="margin-right: 50px; display: flex; align-items: center;">
+                <button class="imgBtn">
+                    <a target="blank" href="https://in.linkedin.com"><img src="/images/linkedin.png" alt="linkedin"></button></a>
+                    
+                <button class="imgBtn">
+                    <a target="blank" href="https://github.com/mukul-dev"><img src="/images/github.png" alt="linkedin"></button></a>
+                    
+            </div>
+        </nav>
+        
+
+    </header>
+
+
+
+    <main>
+
+        <!-- Load library from the CDN -->
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <section class="firstSec">
+            <div class="leftSec">Hi, my name is <span class="name"> Mukul Dev Prajapati</span>.
+                <div></div>
+                <div id="element" style="display: inline; width:90%;"> </div>
+            </div>
+            <div class="rightSec">
+
+                <img style="border: 0.01em solid rgb(30, 0, 121);border-radius: 10px; display: block;"
+                    src="/images/mypic.jpg" alt="profile" width=" 200px" height="200px">
+
+
+
+
+            </div>
+
+
+        </section>
+
+        <section class="secondSec">
+            <button style="display: flex;" class="simpleBtn">  <a target="blank" href="/re
+                "></a>  View/Download Resume</button>
+            
+
+
+        </section>
+
+
+        <section class="thirdSec">
+            <div class="eduQual">
+
+                <div class="heading"><h3> Educational Qualifications</h3>
+                    <hr><br>
+                
+                </div>
+                <ul >
+                    <br>
+                    <li><h5>
+                        <u> Master of Computer Applications</u></li>
+                    </h5>
+
+                    <li>MNNIT Allahabad, UP</li>
+                    <li>2022-2025</li>
+                    <br>
+                    <br>
+                    <hr>
+                </ul>
+
+                <ul >
+                    <br>
+                    <br>
+                    <li><h5><u> Bachelor of Computer Applications</u></h5></li>
+                    <li>Guru Gobind Singh Indraprastha University, Delhi</li>
+                    <li>2019-2022</li>
+                    <br>
+                    <br>
+                    <hr>
+                    <br>
+                </ul>
+
+                <ul >
+                    <br>
+                    <li><h5><u> Inter School</u></h5></li>
+                    <li>MNNIT Allahabad, UP</li>
+                    <li>2017-2019</li>
+                    <br>
+                    <hr>
+                    <br>
+                </ul>
+                <ul >
+                    <br>
+                    <li><h5><u> High School</u></h5></li>
+                    <li>DP Public School, Prayagraj, UP</li>
+                    <li>2015-2017</li>
+                    <br>
+                    <hr>
+                    <br>
+                </ul>
+            </div>
+            
+            <div style="margin: 0px 50px;">
+                <H3>Projects</H3>
+                <hr>
+                <br><br>
+                <ul>
+                    <h5>
+                        <li><u>Chatzz</u></li>
+                    </h5>
+                    <li>Android Based Chat Application</li>
+                    <li>Java, FireBase, XML, Android Studio</li>
+                    <li>2019-20</li>
+
+                    <br><hr>
+                </ul>
+
+                <br><br>
+                <ul>
+                    <h5>
+                        <li><u>Conquered</u></li>
+                    </h5>
+                    <li>Multiplayer Battle Game</li>
+                    <li>C#, Unity, Photon Engine, Android Studio</li>
+                    <li>2020-21</li>
+
+                    <br><hr>
+                </ul>
+            </div>
+
+
+        </section>
+
+<br><br>
+        <hr style="margin: 0px 30px;">
+        <section class="fourthSec">
+            <div>
+
+                <h3>Contact Me</h3>
+                <hr><br>
+           
+                
+                <table>
+                    <tr>
+                        <td><label for="name"> <b> Name </b> </label> </td>
+                    <td>
+                        <input type="name" name="username" id="unameText"></td>
+                    </tr>
+                    
+
+                    <tr>
+                        <td><label for="email"> <b>Email</b> </label>
+                        </td>
+                    <td>
+                        <input type="email" name="email" id="emailText"></td>
+                     </tr>
+                     
+
+
+                </table>
+                
+                <label for="Message" style="margin: 0px 10px;">
+                   <b> Message</b></label>
+                <br>
+                <textarea style="margin: 0px 20px;" name="Message" id="contactmsg" cols="30" rows="5"></textarea>
+
+                <div style="margin: 10px 90px;" >
+                    <a href="mazak.html"></a><button class="simpleBtn" style="width: 80px;">Send</button></a>
+
+                </div>
+                <br>
+
+
+            </div>
+
+        </section>
+
+
+        
+        
+        
+    </main>
+
+
+    <footer>
+        <br>
+        <span> Mukul Dev's Portfolio | &#169; 2023 | All rights reserved</span>
+        <div> </div>
+
+    </footer>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['I am a Software Developer. Currently I am studying Master of Computer Applications at MNNIT Allahabad. My interests are Full Stack Web Development and Android Development.'],
+            typeSpeed: 40,
+        });
+    </script>
+</body>
+
+</html>
